@@ -1,0 +1,390 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Clean font */
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #333; 
+    background-color: #f4f4f4; /* Light background color for contrast */
+}
+/* Make the body take up the full viewport height */
+
+.hero {
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f4f4f4; /* Light background color for visibility */
+    color: #333; /* Text color */
+    text-align: center; /* Center align text */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.service-cards {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute space evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.service-card {
+    background-color: white; /* Card background color */
+    border: 1px solid #ddd; /* Border for card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 10px; /* Space between cards */
+    flex: 1; /* Allow cards to grow and fill space */
+    min-width: 300px; /* Minimum width for cards */
+    max-width: 350px; /* Maximum width for cards */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.service-card h3 {
+    margin-bottom: 15px; /* Space below heading */
+}
+
+.service-card p {
+    line-height: 1.6; /* Line height for readability */
+}
+
+.hero h2 {
+    font-size: 24px; /* Adjust heading size */
+    margin-bottom: 10px; /* Space between heading and paragraph */
+}
+
+.hero p {
+    margin-bottom: 15px; /* Space between paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+
+.info-cards {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute space evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.info-card {
+    background-color: white; /* Card background color */
+    border: 1px solid #ddd; /* Border for card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 10px; /* Space between cards */
+    flex: 1; /* Allow cards to grow and fill space */
+    min-width: 300px; /* Minimum width for cards */
+    max-width: 350px; /* Maximum width for cards */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-bottom: 100px;
+}
+
+.info-card h3 {
+    margin-bottom: 15px; /* Space below heading */
+}
+
+.info-card p {
+    line-height: 1.6; /* Line height for readability */
+}
+
+
+
+/* Use Flexbox to structure the page */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure that the main content expands to take available space */
+header, section {
+    flex: 1;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Background color of the footer */
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Keeps footer at the bottom of the content */
+    color: white; /* Color of the footer text */
+}
+
+footer p {
+    margin: 5px 0; /* Space between paragraphs */
+    opacity: 0.8; /* Opacity of the text */
+}
+
+.social-links {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.social-links li {
+    margin: 10px 0; /* Spacing between links */
+}
+
+.social-links a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size for links */
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-links a:hover {
+    color: #E1306C; /* Change to Instagram color on hover */
+    text-decoration: underline; /* Underline the link on hover */
+}
+
+/* Icon Colors */
+.social-links a i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.social-links a i.fa-instagram {
+    color: #E1306C; /* Instagram color */
+}
+
+.social-links a i.fa-telegram {
+    color: #0088cc; /* Telegram color */
+}
+
+.social-links a i.fa-whatsapp {
+    color: #25D366; /* WhatsApp color */
+}
+
+
+/* Ensure footer stays at the bottom on small content */
+body {
+    min-height: 100vh;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Keep the modern, clean look for body text */
+    font-weight: 600;
+    color: #333; /* Adjust this if you need a different heading color */
+}
+
+p {
+    font-family: 'Montserrat', sans-serif; /* Keep the modern, clean look for body text */
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #0072b1; /* Header background color */
+    color: white; /* Text color for header */
+    padding: 20px; /* Padding for header */
+    text-align: center; /* Center align header text */
+}
+
+header nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+header nav ul li {
+    display: inline; /* Horizontal navigation */
+    margin: 0 15px; /* Space between nav items */
+}
+
+header nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-section {
+    padding: 20px;
+    max-width: 800px; /* Limit width of the contact section */
+    margin: 0 auto; /* Center align */
+    background: white; /* White background for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-top: 50px;
+}
+
+.contact-info {
+    margin-bottom: 20px; /* Space below contact info */
+}
+.thank-you-message {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    background-color: #f0f0f0; /* Light background color */
+    margin-top: 20px;
+}
+
+.policy-disclaimer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ccc; /* Border around the policy */
+    margin-bottom: 50px;
+}
+
+.policy-disclaimer h3 {
+    margin-top: 0;
+}
+
+.policy-disclaimer p {
+    margin-bottom: 10px;
+}
+
+
+
+.contact-card {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the card */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact-card h3 {
+    margin-top: 0; /* Remove top margin */
+}
+
+.contact-form {
+    display: flex; /* Flex layout for form */
+    flex-direction: column; /* Column direction */
+}
+
+.contact-form label {
+    margin: 10px 0 5px; /* Spacing for labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px; /* Inner padding for inputs */
+    border: 1px solid #0072b1; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.contact-form button {
+    background-color:#0072b1; /* Dark button background */
+    color: white; /* White text for button */
+    border: none; /* No border */
+    padding: 10px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    margin-top: 10px; /* Space above button */
+}
+
+.contact-form button:hover {
+    background-color: #0072b1; /* Darker background on hover */
+}
+.contact-card p a {
+    text-decoration: none; /* Remove underline */
+    margin-right: 10px; /* Spacing between icons */
+}
+
+.contact-card p a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.contact-card p i {
+    margin-right: 5px; /* Spacing between icon and text */
+    color: inherit; /* Ensures the icon uses the original color */
+}
+
+
+
+nav ul {
+    list-style: none; /* Remove list style */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Space between nav items */
+}
+
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+
+section {
+    padding: 20px; /* Padding for the main section */
+    text-align: center; /* Center align section text */
+}
+
+.course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px; /* Adds consistent space between cards */
+    margin-bottom: 100px;
+}
+
+.course-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(40% - 30px); /* Two cards per row on larger screens */
+    height: 300px; /* Set height for square shape */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.course-card h3 {
+    margin-bottom: 5px; /* Bring title and paragraph closer */
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.course-card p {
+    margin-top: 0; /* Remove top margin */
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #666; /* Softer color for description */
+    /* Limit paragraph to three lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5em;
+    max-height: 4.5em;
+}
+/* Assuming you already have this for the card paragraphs */
+/* Add this rule for the new paragraph */
+/* Existing style for the course description paragraph */
+.course-description {
+    color: #1b1b1b; /* Matches the color of the card paragraphs */
+    font-size: 1rem; /* Adjust font size if necessary */
+    line-height: 1.5; /* Ensure readability */
+    margin-bottom: 100px; /* Add margin to increase space between description and course cards */
+}
+
+
+
+
+/* Media query for smaller devices */
+@media screen and (max-width: 768px) {
+    .course-card {
+        width: calc(90% - 30px); /* One card per row on smaller screens */
+        height: 300px; /* Maintain square shape */
+    }
+}
+
+
+/* Optional hover effect */
+.course-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+footer {
+    background-color: #0072b1; /* Footer background color */
+    color: white; /* Text color for footer */
+    text-align: center; /* Center align footer text */
+    padding: 10px; /* Padding for footer */
+    position: relative; /* Positioning for footer */
+    bottom: 0; /* Align footer to bottom */
+    width: 100%; /* Full width for footer */
+}
+
